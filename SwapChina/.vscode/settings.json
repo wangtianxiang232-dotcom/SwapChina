@@ -1,0 +1,140 @@
+{
+  // 文件关联
+  "files.associations": {
+    "*.vue": "vue",
+    "*.nvue": "vue",
+    "*.ux": "vue"
+  },
+  
+  // 路径别名配置（用于智能提示和跳转）
+  "path-intellisense.mappings": {
+    "@": "${workspaceFolder}/SwapChina"
+  },
+  
+  // Vue 文件配置
+  "vetur.format.defaultFormatter.html": "prettier",
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "semi": false,
+      "singleQuote": true,
+      "tabWidth": 2,
+      "useTabs": false,
+      "printWidth": 100,
+      "trailingComma": "none"
+    }
+  },
+  
+  // ESLint 配置
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ],
+  
+  // 编辑器配置
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  
+  // 文件排除
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/unpackage": true,
+    "**/.hbuilderx": true
+  },
+  
+  // 搜索排除
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/unpackage": true,
+    "**/.hbuilderx": true,
+    "**/dist": true
+  },
+  
+  // SCSS 配置
+  "scss.lint.unknownAtRules": "ignore",
+  "scss.validate": true,
+  
+  // CSS 配置
+  "css.validate": true,
+  "css.lint.unknownAtRules": "ignore",
+  
+  // 文件编码
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  
+  // 自动保存
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  
+  // 文件监视 - 减少文件监视以提高性能
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/unpackage/**": true,
+    "**/.hbuilderx/**": true,
+    "**/dist/**": true
+  },
+  
+  // 建议配置
+  "editor.suggestSelection": "first",
+  "editor.wordBasedSuggestions": false,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  
+  // 括号配对
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  
+  // 代码片段
+  "editor.snippetSuggestions": "top",
+  
+  // 终端配置
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  
+  // 工作区设置
+  "workbench.colorCustomizations": {},
+  "workbench.iconTheme": "vs-seti",
+  
+  // 禁用某些可能导致问题的功能
+  "typescript.tsserver.maxTsServerMemory": 4096,
+  "typescript.preferences.includePackageJsonAutoImports": "off",
+  
+  // uni-app 特定配置
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  }
+}
+
+
+
+
+
+
+

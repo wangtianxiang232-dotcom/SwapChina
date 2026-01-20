@@ -1,0 +1,212 @@
+/**
+ * SwapChina 设计令牌系统
+ * 统一管理颜色、字体、间距、圆角等设计规范
+ */
+
+// ==================== 颜色系统 ====================
+
+// 主色调
+$color-primary: #2563eb;
+$color-primary-light: #3b82f6;
+$color-primary-dark: #1e40af;
+$color-primary-bg: #dbeafe;
+$color-primary-bg-light: rgba(219, 234, 254, 0.5);
+
+// 渐变色 (匹配 Tailwind: from-blue-600 via-blue-700 to-indigo-900)
+$gradient-primary: linear-gradient(135deg, #2563eb 0%, #1d4ed8 50%, #312e81 100%);
+$gradient-blue: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+
+// 功能色
+$color-success: #10b981;
+$color-success-bg: #bdfcdb;
+$color-success-text: #065f46;
+
+
+$color-error: #ef4444;
+$color-error-light: #f5e4e4;
+$color-error-bg: #fee2e2;
+$color-error-text: #991b1b;
+
+$color-warning: #f59e0b;
+$color-warning-bg: #fef3c7;
+$color-warning-text: #92400e;
+
+$color-info: #3b82f6;
+$color-info-bg: #dbeafe;
+$color-info-text: #1e40af;
+
+// 中性色 - 浅色模式 (匹配 Tailwind slate 色板)
+// 深黑色
+$color-text-black: #000000;
+$color-text-primary: #323436;  // slate-900 (主要文本)
+$color-text-primary-light: #323436;  // slate-800   
+$color-text-secondary: #64748b;  // slate-500
+$color-text-tertiary: #94a3b8;  // slate-400
+$color-text-disabled: #cbd5e1;  // slate-300
+
+$color-bg-primary: #f7fafe;
+$color-bg-secondary: #f8fafc;
+$color-bg-tertiary: #f1f5f9;
+$color-bg-quaternary: #e2e8f0;
+
+$color-border: #e2e8f0;
+$color-border-light: #e5ebf0;
+$color-border-dark: #cbd5e1;
+
+// 输入框之类焦点的边框颜色
+$color-input-border-focus: #3b82f6;
+
+
+
+// 中性色 - 深色模式 (匹配 Tailwind slate 色板)
+$color-dark-text-primary: #ffffff;  // white
+$color-dark-text-secondary: #cbd5e1;  // slate-300
+
+
+$color-dark-text-tertiary: #94a3b8;  // slate-400
+$color-dark-text-disabled: #64748b;  // slate-500
+
+
+
+$color-dark-bg-primary: #0f172a;  // slate-900 (深色模式卡片/组件背景)
+$color-dark-bg-secondary: #1e293b;  // slate-800
+$color-dark-bg-tertiary: #334155;  // slate-700
+$color-dark-bg-quaternary: #475569;  // slate-600
+
+$color-dark-border: #1e293b;  // slate-800
+$color-dark-border-light: #334155;  // slate-700
+$color-dark-border-dark: #475569;  // slate-600
+
+// 背景色
+$color-bg-page-light: #f8fafc;  // slate-50
+$color-bg-page-dark: #020617;  // slate-950 (最深页面背景，用于启动页等)
+
+// 遮罩
+$color-mask: rgba(0, 0, 0, 0.6);
+$color-mask-light: rgba(0, 0, 0, 0.4);
+$color-mask-dark: rgba(15, 23, 42, 0.6);
+
+// ==================== 字体系统 ====================
+
+// 字体大小
+$font-size-xs: 14rpx;      // 10px
+$font-size-sm: 18rpx;       // 11px
+$font-size-base: 20rpx;     // 12px
+$font-size-md: 24rpx;       // 15px
+$font-size-lg: 28rpx;       // 17px
+$font-size-xl: 32rpx;       // 20px
+$font-size-2xl: 36rpx;      // 22px
+$font-size-3xl: 40rpx;      // 25px
+$font-size-4xl: 48rpx;      // 30px
+$font-size-5xl: 60rpx;      // 37px
+$font-size-6xl: 80rpx;      // 50px
+
+// 字体粗细
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-extrabold: 800;
+$font-weight-black: 900;
+
+// 行高
+$line-height-tight: 1.2;
+$line-height-normal: 1.5;
+$line-height-relaxed: 1.6;
+$line-height-loose: 1.8;
+
+// 字间距
+$letter-spacing-tighter: -2rpx;
+$letter-spacing-tight: -1rpx;
+$letter-spacing-normal: 0;
+$letter-spacing-wide: 1rpx;
+$letter-spacing-wider: 2rpx;
+$letter-spacing-widest: 0.2em;
+$letter-spacing-ultra: 0.3em;
+
+// ==================== 间距系统 ====================
+
+// 基础间距单位 (8rpx = 0.5rem)
+$spacing-1: 8rpx;    // 0.5
+$spacing-2: 16rpx;   // 1
+$spacing-3: 24rpx;   // 1.5
+$spacing-4: 32rpx;   // 2
+$spacing-5: 40rpx;   // 2.5
+$spacing-6: 48rpx;   // 3
+$spacing-7: 56rpx;   // 3.5
+$spacing-8: 64rpx;   // 4
+$spacing-9: 75rpx;   // 4.5
+$spacing-10: 80rpx;  // 5
+$spacing-12: 96rpx;  // 6
+$spacing-16: 128rpx; // 8
+$spacing-20: 160rpx; // 10
+$spacing-24: 192rpx; // 12
+
+// ==================== 圆角系统 ====================
+
+$radius-sm: 12rpx;
+$radius-md: 16rpx;
+$radius-lg: 20rpx;
+$radius-xl: 24rpx;
+$radius-2xl: 28rpx;
+$radius-3xl: 36rpx;
+$radius-4xl: 40rpx;
+$radius-5xl: 44rpx;
+$radius-6xl: 50rpx;
+$radius-7xl: 80rpx;
+$radius-full: 9999rpx;
+
+// ==================== 阴影系统 ====================
+
+$shadow-sm: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+$shadow-md: 0 4rpx 12rpx rgba(0, 0, 0, 0.05);
+$shadow-lg: 0 8rpx 24rpx rgba(0, 0, 0, 0.1);
+$shadow-xl: 0 20rpx 60rpx rgba(0, 0, 0, 0.1);
+$shadow-2xl: 0 20rpx 60rpx rgba(37, 99, 235, 0.2);
+$shadow-primary: 0 8rpx 24rpx rgba(37, 99, 235, 0.3);
+$shadow-primary-lg: 0 20rpx 60rpx rgba(37, 99, 235, 0.3);
+$shadow-inner: inset 0 2rpx 4rpx rgba(0, 0, 0, 0.05);
+
+// ==================== 过渡动画 ====================
+
+$transition-fast: 0.1s;
+$transition-base: 0.2s;
+$transition-slow: 0.3s;
+$transition-slower: 0.5s;
+
+$ease-in-out: ease-in-out;
+$ease-out: ease-out;
+$ease-in: ease-in;
+
+// ==================== Z-index 层级 ====================
+
+$z-index-base: 1;
+$z-index-dropdown: 100;
+$z-index-sticky: 200;
+$z-index-fixed: 300;
+$z-index-modal-backdrop: 400;
+$z-index-modal: 500;
+$z-index-popover: 600;
+$z-index-tooltip: 700;
+$z-index-toast: 1000;
+
+// ==================== 断点系统 ====================
+
+$breakpoint-sm: 576rpx;
+$breakpoint-md: 768rpx;
+$breakpoint-lg: 992rpx;
+$breakpoint-xl: 1200rpx;
+
+// ==================== 其他 ====================
+
+// 透明度
+$opacity-disabled: 0.3;
+$opacity-hover: 0.8;
+$opacity-active: 0.6;
+
+// 模糊
+$blur-sm: 10rpx;
+$blur-md: 20rpx;
+$blur-lg: 40rpx;
+$blur-xl: 60rpx;
+

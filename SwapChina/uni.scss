@@ -1,0 +1,70 @@
+/**
+ * uni-app 内置样式变量
+ * 引入 SwapChina 设计令牌系统
+ */
+
+// 引入设计令牌
+@import '/styles/tokens.scss';
+
+/* 颜色变量 */
+
+/* 行为相关颜色 */
+$uni-color-primary: $color-primary;
+$uni-color-success: $color-success;
+$uni-color-warning: $color-warning;
+$uni-color-error: $color-error;
+
+/* 文字基本颜色 */
+$uni-text-color: $color-text-primary;
+$uni-text-color-inverse: #fff;
+$uni-text-color-grey: $color-text-tertiary;
+$uni-text-color-placeholder: $color-text-secondary;
+$uni-text-color-disable: $color-text-disabled;
+
+/* 背景颜色 */
+$uni-bg-color: $color-bg-primary;
+$uni-bg-color-grey: $color-bg-secondary;
+$uni-bg-color-hover: $color-bg-tertiary;
+$uni-bg-color-mask: $color-mask;
+
+/* 边框颜色 */
+$uni-border-color: $color-border;
+
+/* 尺寸变量 */
+
+/* 文字尺寸 */
+$uni-font-size-sm: $font-size-xs;
+$uni-font-size-base: $font-size-base;
+$uni-font-size-lg: $font-size-lg;
+
+/* 图片尺寸 */
+$uni-img-size-sm: 20px;
+$uni-img-size-base: 26px;
+$uni-img-size-lg: 40px;
+
+/* Border Radius */
+$uni-border-radius-sm: $radius-sm;
+$uni-border-radius-base: $radius-md;
+$uni-border-radius-lg: $radius-xl;
+$uni-border-radius-circle: $radius-full;
+
+/* 水平间距 */
+$uni-spacing-row-sm: $spacing-1;
+$uni-spacing-row-base: $spacing-2;
+$uni-spacing-row-lg: $spacing-3;
+
+/* 垂直间距 */
+$uni-spacing-col-sm: $spacing-1;
+$uni-spacing-col-base: $spacing-2;
+$uni-spacing-col-lg: $spacing-3;
+
+/* 透明度 */
+$uni-opacity-disabled: $opacity-disabled;
+
+/* 文章场景相关 */
+$uni-color-title: $color-text-primary;
+$uni-font-size-title: $font-size-3xl;
+$uni-color-subtitle: $color-text-secondary;
+$uni-font-size-subtitle: $font-size-4xl;
+$uni-color-paragraph: $color-text-secondary;
+$uni-font-size-paragraph: $font-size-lg;

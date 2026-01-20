@@ -1,0 +1,184 @@
+{
+	"pages": [
+		{
+			"path": "pages/splash/splash",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/onboarding/onboarding",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/exchange/exchange",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/market/market",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/orders/orders",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/assets/assets",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/deposit/deposit",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/deposit-history/deposit-history",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/deposit-detail/deposit-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/kyc/kyc",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/messages/messages",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/market-detail/market-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/order-detail/order-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/change-password/change-password",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/about-us/about-us",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/news/news",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/message-detail/message-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^Header$": "@/components/Header.vue",
+			"^BottomNav$": "@/components/BottomNav.vue",
+			"^PageNav$": "@/components/PageNav.vue",
+			"^IconWrapper$": "@/components/icons/IconWrapper.vue",
+			"^HomeIcon$": "@/components/icons/HomeIcon.vue",
+			"^SwapIcon$": "@/components/icons/SwapIcon.vue",
+			"^HistoryIcon$": "@/components/icons/HistoryIcon.vue",
+			"^WalletIcon$": "@/components/icons/WalletIcon.vue",
+			"^UserIcon$": "@/components/icons/UserIcon.vue",
+			"^BellIcon$": "@/components/icons/BellIcon.vue",
+			"^CameraIcon$": "@/components/icons/CameraIcon.vue",
+			"^FormInput$": "@/components/FormInput.vue",
+			"^FormSelect$": "@/components/FormSelect.vue",
+			"^ConfirmDialog$": "@/components/ConfirmDialog.vue"
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "SwapChina",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#f8fafc"
+	},
+	"tabBar": {
+		"custom": false,
+	
+		"list": [
+		]
+	},
+	"uniIdRouter": {}
+}
