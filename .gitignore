@@ -1,0 +1,67 @@
+# Uni-app 项目 .gitignore 配置
+
+# 开发环境文件
+.DS_Store
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# HBuilderX 相关
+.unpackage/
+dist/
+build/
+.hbuilderx/
+
+# 项目配置文件（根据情况选择性忽略）
+# project.config.json
+# manifest.json  # 注意：这个文件通常需要提交
+
+# 操作系统文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 日志文件
+*.log
+
+# 运行时文件
+*.pid
+*.seed
+
+# 依赖目录
+node_modules
+
+# 测试覆盖率
+coverage/
+
+# 打包输出
+dist/
+build/
+.unpackage/
+参考/
+
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 编辑器文件
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.ed
+*.sw?
+
+# 平台特定文件
+unpackage/dist/*
+unpackage/debug/*
+unpackage/release/*
